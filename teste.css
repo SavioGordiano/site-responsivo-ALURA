@@ -1,0 +1,21 @@
+@media screen and (min-width: 1024px) {
+    .opcoes{
+        position: relative;
+    }
+    .lista-menu2{
+        position: absolute;
+        display: none;
+        top: 100%;
+        left: 0%;
+        opacity: 1;
+        background: var(--branco) ;
+    }
+    .opcoes__menu{
+        display: none;
+    }
+    .opcoes__menu:checked~.lista-menu2{
+        display: block;
+    }
+
+    
+}
